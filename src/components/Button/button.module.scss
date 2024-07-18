@@ -1,0 +1,57 @@
+.root {
+  border-radius: 30px;
+  background-color: #000000;
+  color: #ffffff;
+  font-size: 24px;
+  outline: none;
+  border: 1px solid #000000;
+  padding: 10px 30px;
+  cursor: pointer;
+  transition: background-color .2s ease-in-out, color .2s ease-in-out;
+  box-shadow: rgba(0, 0, 0, 0.08) 0 4px 12px;
+
+  &:hover {
+    background-color: #ffffff;
+    color: #000000;
+  }
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.small {
+  padding: 5px;
+}
+
+.medium {
+  padding: 10px 30px;
+}
+
+.large {
+  padding: 20px 40px;
+}
+
+.fullWidth {
+  display: block;
+  width: 100%;
+}
+
+.primary {
+  background-color: #000000;
+
+  &:hover {
+    background-color: #ffffff;
+  }
+}
+
+.secondary {
+  background-color: #029CFD;
+  border: 1px solid #029CFD;
+
+  &:hover {
+    background-color: #0277FD;
+    border: 1px solid #0277FD;
+    color: #ffffff;
+  }
+}

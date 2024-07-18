@@ -1,3 +1,5 @@
+const { mergeConfig } = require("vite");
+
 /** @type { import('@storybook/react-vite').StorybookConfig } */
 const config = {
   stories: [
@@ -23,7 +25,7 @@ const config = {
       css: {
         preprocessorOptions: {
           scss: {
-            additionalData: `@import "src/assets/styles/variables.scss";`,
+            additionalData: `@import "src/assets/styles/global.scss";`,
           },
         },
       },

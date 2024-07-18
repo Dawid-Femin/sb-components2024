@@ -27,5 +27,8 @@
     "prop-types": "^15.8.1",
     "sass": "^1.77.8",
     "storybook": "^8.2.1"
+  },
+  "dependencies": {
+    "classnames": "^2.5.1"
   }
 }
