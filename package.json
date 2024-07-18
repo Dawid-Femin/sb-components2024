@@ -13,16 +13,19 @@
   "description": "",
   "devDependencies": {
     "@chromatic-com/storybook": "^1.6.1",
-    "@storybook/addon-essentials": "^8.2.1",
+    "@storybook/addon-essentials": "^8.2.4",
     "@storybook/addon-interactions": "^8.2.1",
-    "@storybook/addon-links": "^8.2.1",
+    "@storybook/addon-links": "^8.2.4",
     "@storybook/addon-onboarding": "^8.2.1",
     "@storybook/blocks": "^8.2.1",
-    "@storybook/react": "^8.2.1",
+    "@storybook/builder-vite": "^8.2.4",
+    "@storybook/preset-scss": "^1.0.3",
+    "@storybook/react": "^8.2.4",
     "@storybook/react-vite": "^8.2.1",
     "@storybook/test": "^8.2.1",
+    "prettier": "^3.3.3",
     "prop-types": "^15.8.1",
-    "storybook": "^8.2.1",
-    "sass": "^1.77.8"
+    "sass": "^1.77.8",
+    "storybook": "^8.2.1"
   }
 }
