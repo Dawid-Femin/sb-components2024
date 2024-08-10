@@ -1,4 +1,4 @@
-import React, { ReactNode, FC, CSSProperties } from "react";
+import { ReactNode, FC, CSSProperties } from "react";
 import classNames from "classnames";
 import classes from "./button.module.scss";
 

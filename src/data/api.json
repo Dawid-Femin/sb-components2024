@@ -1,0 +1,116 @@
+{
+  "mainMenu": [
+    {
+      "label": "Benefity",
+      "items": [
+        {
+          "label": "Kafeteria",
+          "url": "http://kafeteria.mybenefit.pl",
+          "target": "_self"
+        },
+        {
+          "label": "Multisport*",
+          "url": "http://emultsport.pl",
+          "target": "_self"
+        }
+      ]
+    },
+    {
+      "label": "Narzędzia",
+      "items": [
+        {
+          "label": "Active",
+          "url": "http://kafeteria.mybenefit.pl",
+          "target": "_blank"
+        },
+        {
+          "label": "Nieobecności",
+          "url": "http://emultsport.pl",
+          "target": "_self"
+        }
+      ]
+    }
+  ],
+  "profileMenu": [
+    {
+      "label": "Profil użytkownika",
+      "items": [
+        {
+          "label": "Moje dane",
+          "url": "https://kafeteria.mybenefit.pl/customer/data",
+          "target": "_self"
+        },
+        {
+          "label": "Moje zgody",
+          "url": "https://kafeteria.mybenefit.pl/customer/agreements",
+          "target": "_self"
+        }
+      ]
+    },
+    {
+      "label": "Obsługa klienta",
+      "items": [
+        {
+          "label": "Pomoc",
+          "url": "https://kafeteria.mybenefit.pl/lp/payu.html",
+          "target": "_blank"
+        },
+        {
+          "label": "Obsługa klienta",
+          "url": "https://kafeteria.mybenefit.pl/lp/paypo.html",
+          "target": "_self"
+        }
+      ]
+    }
+  ],
+  "productsMenu": [
+    {
+      "label": "Kafeteria",
+      "items": [
+        {
+          "label": "Moje zamówienia",
+          "url": "https://kafeteria.mybenefit.pl/xxx",
+          "target": "_self"
+        },
+        {
+          "label": "Moje kody",
+          "url": "https://kafeteria.mybenefit.pl/customer/agreements",
+          "target": "_self"
+        }
+      ]
+    },
+    {
+      "label": "MultiSport",
+      "items": [
+        {
+          "label": "Moje karty",
+          "url": "https://kafeteria.mybenefit.pl/lp/payu.html",
+          "target": "_blank"
+        },
+        {
+          "label": "Historia",
+          "url": "https://kafeteria.mybenefit.pl/lp/paypo.html",
+          "target": "_blank"
+        }
+      ]
+    }
+  ],
+  "employee": {
+    "firstName": "test",
+    "lastName": "xxxx",
+    "email": "john.doe@example.com",
+    "language": "pl"
+  },
+  "pointsBank": {
+    "balance": 12344
+  },
+  "logo": {
+    "src": "https://kafeteria.staging.aws.mybenefit.pl/api/company-management/v1/rest/media/c82552d253185686a06ad443d61a813b6fff0fea1bc153d148ae76f164e56c0a3ebc20fff21528f67bff0e24f5173d24b8b3cd90046dd9133f2735c7f95d5076/PNG.png",
+    "url": "http://dahsboard.mybenefit.pl",
+    "label": "Orlen SA"
+  },
+  "notifications": {
+    "qty": 156
+  },
+  "name": "example"
+}
