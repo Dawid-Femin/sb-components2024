@@ -11,8 +11,12 @@
     "skipLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "*": [
-        "node_modules/*"
+      "@/*": [
+        "src/*"
+      ],
+      "typeRoots": [
+        "node_modules/@types",
+        "node_modules/dawidfemin-components2024/dist"
       ]
     },
     /* Bundler mode */
