@@ -2,6 +2,7 @@ import react from "@vitejs/plugin-react";
 import path from "path";
 import { defineConfig } from "vite";
 import dts from "vite-plugin-dts";
+import eslint from "vite-plugin-eslint";
 
 export default defineConfig({
   resolve: {
@@ -25,5 +26,5 @@ export default defineConfig({
       },
     },
   },
-  plugins: [react(), dts({ rollupTypes: true })],
+  plugins: [react(), eslint(), dts({ rollupTypes: true })],
 });
