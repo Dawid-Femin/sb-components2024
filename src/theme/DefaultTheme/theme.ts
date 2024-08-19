@@ -17,7 +17,7 @@ declare module "@mui/material/Button" {
   }
 }
 
-const theme = createTheme({
+export const theme = createTheme({
   palette: {
     benefit: {
       main: "#4caf50",
@@ -41,5 +41,3 @@ const theme = createTheme({
     },
   },
 });
-
-export default theme;

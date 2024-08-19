@@ -1,6 +1,6 @@
 {
   "name": "dawidfemin-components2024",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "A library of reusable React components",
   "main": "dist/simple-ui-umd.cjs",
   "module": "dist/simple-ui.js",
