@@ -1,14 +1,11 @@
 {
   "name": "dawidfemin-components2024",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "A library of reusable React components",
-  "main": "dist/index.cjs",
+  "main": "dist/index.js",
   "module": "dist/index.js",
   "exports": {
-    ".": {
-      "import": "./dist/index.js",
-      "require": "./dist/index.cjs"
-    }
+    ".": "./dist/index.js"
   },
   "types": "dist/dawidfemin-components2024.d.ts",
   "files": [
