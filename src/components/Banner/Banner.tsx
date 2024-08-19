@@ -1,6 +1,6 @@
 import { FC, ReactNode } from "react";
 import classes from "./banner.module.scss";
-import { Button } from "../Button";
+import { CustomButton } from "../CustomButton";
 
 interface BannerProps {
   title: string;
@@ -18,9 +18,9 @@ export const Banner: FC<BannerProps> = ({
       <div className={classes.text}>
         <h2>{title}</h2>
         <p>{description}</p>
-        <Button size={"fullWidth"} color={"primary"}>
+        <CustomButton size={"fullWidth"} color={"primary"}>
           {buttonContent}
-        </Button>
+        </CustomButton>
       </div>
       <div className={classes.image}></div>
     </div>

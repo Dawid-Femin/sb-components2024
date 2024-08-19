@@ -1,6 +1,6 @@
 import { ReactNode, FC, CSSProperties } from "react";
 import classNames from "classnames";
-import classes from "./button.module.scss";
+import classes from "./customButton.module.scss";
 
 interface ButtonProps {
   children: ReactNode;
@@ -10,7 +10,7 @@ interface ButtonProps {
   color?: "primary" | "secondary";
 }
 
-export const Button: FC<ButtonProps> = ({
+export const CustomButton: FC<ButtonProps> = ({
   children,
   style,
   bold,
