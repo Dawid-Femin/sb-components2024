@@ -1,7 +1,7 @@
 import classes from "./header.module.scss";
 import { Box } from "@mui/material";
 import Typography from "@mui/material/Typography";
-import { ImageSlider } from "@/components/ImageSlider";
+import { ImageSlider } from "../ImageSlider";
 
 export const Header = () => {
   return (

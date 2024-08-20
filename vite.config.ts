@@ -1,20 +1,21 @@
-import react from "@vitejs/plugin-react";
-import path from "path";
 import { defineConfig } from "vite";
+import react from "@vitejs/plugin-react";
 import dts from "vite-plugin-dts";
-import eslint from "vite-plugin-eslint";
 
 export default defineConfig({
-  resolve: {
-    alias: {
-      "@": path.resolve(__dirname, "./src"),
-    },
-  },
+  plugins: [
+    react(),
+    dts({
+      tsconfigPath: "./tsconfig.json",
+      insertTypesEntry: true,
+    }),
+  ],
   build: {
     lib: {
-      entry: path.resolve(__dirname, "./src/index.ts"),
-      name: "index",
-      fileName: "index",
+      entry: "./src/index.ts",
+      name: "DawidFeminComponents2024",
+      fileName: (format) => `dawidfemin-components2024.${format}.js`,
+      formats: ["es", "cjs"],
     },
     rollupOptions: {
       external: ["react", "react-dom"],
@@ -26,5 +27,4 @@ export default defineConfig({
       },
     },
   },
-  plugins: [react(), eslint(), dts({ rollupTypes: true })],
 });

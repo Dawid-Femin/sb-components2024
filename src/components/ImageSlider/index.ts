@@ -1,1 +1,1 @@
-export { ImageSlider } from "./ImageSlider.tsx";
+export { ImageSlider } from "./ImageSlider";
